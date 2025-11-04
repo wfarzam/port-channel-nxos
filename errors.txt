@@ -1,0 +1,11 @@
+[CHECK] VLANs…
+[PASS] VLANs verified.
+
+Traceback (most recent call last):
+  File "C:\Users\wfarzam\OneDrive - NANDPS\Documents\NetAuto\port-channel.py", line 245, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\wfarzam\OneDrive - NANDPS\Documents\NetAuto\port-channel.py", line 228, in main
+    else build_access_member(desc, str(parse_vlans(r['allowed_vlan'])[0]), mtu, po)))
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
